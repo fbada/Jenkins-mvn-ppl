@@ -1,9 +1,0 @@
-# Ignore all .* files and directories
-.*
-
-# Except .gitignore
-!.gitignore
-
-# Ignore specific metadata files (created by Eclipse)
-.classpath
-.project
