@@ -26,7 +26,7 @@ This guide explains how to deploy a Jenkins job that uses a Jenkinsfile from a s
 
 6. **Specify the Jenkinsfile**
 
-   If your Jenkinsfile is in the root directory of the repository, enter `Jenkinsfile` in the "Script Path" field. If it's in a different location, enter the path relative to the root directory. For example, if your Jenkinsfile is in a directory called `pipeline`, you would enter `pipeline/Jenkinsfile`.
+   As your Jenkinsfile is in the root directory of the repository, enter `Jenkinsfile` in the "Script Path" field.
 
 7. **Set Up Credentials (if necessary)**
 
@@ -52,4 +52,4 @@ If you're using "Trigger builds remotely", the URL would look like this: `http:/
 
 Replace `your-jenkins-url`, `your-job-name`, and `YOUR_TOKEN` with your actual Jenkins URL, job name, and the token you've set up, respectively.
 
-Now, your Jenkins job should be set up to run automatically whenever a change is made in your repository. The pipeline will run based on your Jenkinsfile.
+Now, your Jenkins job should be set up to run automatically whenever a change is made in your repository. The pipeline will run based on your Jenkinsfile in the root directory.
